@@ -74,6 +74,13 @@ body {
   .topnav .search-container {
     float: none;
   }
+  
+  @media only screen and (min-width: 992px) {
+     .topnav .search-container {
+    float: none;
+
+}
+  
   .topnav a, .topnav input[type=text], .topnav .search-container button {
     float: none;
     display: block;
