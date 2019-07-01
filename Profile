@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap 4 Website Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="styles/bootstrap-citrus.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous"></head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+  <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>-->
+  
+  <style>
+ 
+ p {
+  margin: 0;
+ }
+
+div.a {
+  line-height: 100%;
+}
+
+.btn1 {
+  border: 2px solid black;
+  background-color: white;
+  color: black;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+   border-radius: 5px;
+}
+
+.info {
+  border-color: #2196F3;
+  color: dodgerblue
+}
+
+.info:hover {
+  background: #2196F3;
+  color: white;
+}
+
+#my_centered_buttons { display: flex; justify-content: center; } /* THIS IS TO CENTER THE CHAT BUTTON*/
+
+/*  ONLINE/OFLINE */
+.indicator.online {
+    background: #28B62C;
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    border-radius: 50%;
+    -webkit-animation: pulse-animation 2s infinite linear;
+}
+
+@-webkit-keyframes pulse-animation {
+  0% { -webkit-transform: scale(1); }
+  25% { -webkit-transform: scale(1); }
+    50% { -webkit-transform: scale(1.2) }
+    75% { -webkit-transform: scale(1); }
+    100% { -webkit-transform: scale(1); }
+}
+
+.indicator.offline {
+    background: #FF4136;
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    
+}
+
+/* PEOPLE IN NETWORK PROFILES */
+
+.chip {
+  display: inline-block;
+  padding: 0 25px;
+  height: 50px;
+  font-size: 16px;
+  line-height: 50px;
+  border-radius: 25px;
+  background-color: #FFF;
+}
+
+.chip img {
+  float: left;
+  margin: 0 10px 0 -25px;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+
+@media screen and (min-width: 600px) {
+  .topnav .search-container {
+    float: none;
+  }
+
+@media only screen and (max-width: 600px) {
+  .topnav .search-container {
+    float: none;
+  }
+
+@media only screen and (min-width: 992px) {
+     .topnav .search-container {
+    float: none;
+
+}
+
+</style>
+
+</head>
+<body>
+
+
+<div class="content">
+<div class="container" style="margin-top:40px">
+  <div class="row">
+    <div class="col-sm-4">
+      <h2>Robert Smith</h2>
+      <div><img style="vertical-align:top" class="img-fluid" src="images/profile1.jpg" alt="Profile Photo" style="width: 65%;"></div>
+
+</div>
+     
+<span style=""><div class="a">
+     
+<div>
+  <br>
+  <br>
+  <br>
+   <h5>Software Engineer, Technology</h5>
+    <h5>at Paylocity since 2017</h5></div>
+
+  <br>
+  <br>
+  <button class="btn" class="btn hover"><i class="fas fa-star" style="font-size:14px;color:#0088cc;"></i>
+  <span style="">Add To Network</span></button>
+
+</div>
+<div>
+  <button class="btn"><i class="fas fa-star" style="font-size:14px;color:#0088cc;"></i>
+  <span style="">Request Mentor</span></button>
+</div>
+<div>
+  <button class="btn"><i class="fas fa-thumbs-up" style="font-size:14px;color:#0088cc;"><title>Give Recognition</title></i>
+  <span style="">Give Recognition</span></button>
+</div>
+</div>
+</div>
+</span>
+      
+
+</div>
+</div>
+</div>
+
+<br>
+<br>
+<span style="">
+<div class="container">
+  <i class="fas fa-mobile-alt" style="font-size:14px;color:#0088cc;"></i>
+  <span style="">123.456.7890</span></div>
+
+  <!--&emsp;&emsp;&emsp;&emsp;&emsp;--> <!--LEAVES WHITE SPACE BETWEEN THE ELEMENTS-->
+
+<div class="container">
+  <i class="fas fa-envelope" style="font-size:14px;color:#0088cc;"></i>
+  <a href="https://www.gmail.com/">email@info.com</a>
+</div>
+
+<div class="container">
+  <i class="fas fa-map-marker-alt" style="font-size:14px;color:#0088cc;"></i>
+  <span style=""> 123 Main Street, City, State 12345</span>
+</div>
+
+<div class="container">
+  <i class="fas fa-globe" style="font-size:14px;color:#0088cc;"></i>
+  <a href="https://www.paylocity.com/">Paylocity Community</a>
+  <!--<span style="">Paylocity Community</span>-->
+</div>
+
+<div class="container">
+  <i class="fas fa-user" style="font-size:14px;color:#0088cc;"></i>
+  <span style="">123456</span>
+</div>
+
+<br>
+
+<div id="my_centered_buttons">
+  <!--&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;-->
+  <button class="btn1 info">CHAT WITH ROBERT</button>
+</div>
+
+<br>
+
+<div id="my_centered_buttons">
+    <span class="indicator online"></span> Online 
+    &nbsp;&nbsp;
+    <span class="indicator offline"></span> Offline</span>
+</div>
+</span>
+
+
+<br>
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm-8">
+  <h5>PERSONAL BIO</h5>
+  <BR>
+  <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+</div>
+</div>
+</div>
+<br>
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm-8">
+    <h5>SKILLS</h5>
+    <br>
+    <ul>
+      <li>Project Management</li>
+      <li>Perform and document risk analysis</li>
+      <li>Code automated test</li>
+      <li>Perform manual and automated testing</li>
+      <li>Spanish and French</li>
+    </ul>
+ </div>
+ </div>
+ </div> 
+<br>
+<div class="container">
+  <div class="row">
+    <div class="col-sm-8">
+  <h5>CURRENT PROJECTS</h5>
+  <br>
+  <ul>
+    <li>Re-Imagined Paylocity Directory</li>
+    <li> XYZ Project</li>
+  </ul>
+</div>
+</div>
+</div>
+
+<br>
+<div class="container">
+  <div class="row">
+    <div class="col-sm-8">
+      <h5>PAST PROJECTS</h5>
+      <br>
+    <ul>
+      <li>ZZZ Project</li>
+      <li>AAA Project</li>
+    </ul>
+</div>
+  </div>
+    </div>
+
+<br>
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm-8">
+<div>
+  <h5>PEOPLE IN NETWORK</h5>
+</div>
+
+<br>
+
+<div class="chip">
+  <img src="images/profile3.jpg" alt="Robert Smith" width="96" height="96">
+  Ashley Smith
+ </div>
+ <br>
+ <br>
+<div class="chip">
+   <img src="images/profile2.jpg" alt="James Williams" width="96" height="96">
+  James Williams
+</div>
+</div>
+</div>
+</div>
+
+<div class="jumbotron text-center" style="margin-bottom:0">
+  <p>Footer</p>
+</div>
+
+
+</div>
+
+</body>
+</html>
