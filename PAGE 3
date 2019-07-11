@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="styles/bootstrap-citrus.css">
+  <link rel="stylesheet" href="Styles/test.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+  
+  <script src="Styles/test2.js"></script>
+
+</head>
+<style type="text/css">
+
+ p {
+  margin: 0;
+ }
+
+
+div.a {
+  line-height: 100%;
+}
+
+.btn1 {
+  border: 2px solid black;
+  background-color: white;
+  color: black;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+   border-radius: 5px;
+}
+
+
+.btnchat {
+  background-color: white;
+  /*border-color: #e7e7e7;*/
+  color: black;
+  padding: auto;
+  font-size: 16px;
+  cursor: pointer;
+   border-radius: 5px;
+
+}
+
+
+.btn {
+  background-color: white;
+  /*border-color: #e7e7e7;*/
+  color: black;
+  padding: auto;
+  font-size: 16px;
+  cursor: pointer;
+   border-radius: 5px;
+
+}
+
+.btn5 {
+  background-color: white;
+  /*border-color: #e7e7e7;*/
+  color: black;
+  padding: auto;
+  font-size: 16px;
+  cursor: pointer;
+   border-radius: 5px;
+
+}
+
+.btn5:hover {
+border-color: #2196F3;  
+}
+
+.btn:hover {
+border-color: #2196F3;	
+}
+  
+.info {
+  border-color: #2196F3;
+  color: dodgerblue
+}
+
+.info:hover {
+  background: #2196F3;
+  color: white;
+}
+
+
+#my_centered_buttons { display: flex; justify-content: center; } /* THIS IS TO CENTER THE CHAT BUTTON*/
+
+/*  ONLINE/OFLINE */
+.indicator.online {
+    background: #28B62C;
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    border-radius: 50%;
+    -webkit-animation: pulse-animation 2s infinite linear;
+}
+
+@-webkit-keyframes pulse-animation {
+  0% { -webkit-transform: scale(1); }
+  25% { -webkit-transform: scale(1); }
+    50% { -webkit-transform: scale(1.2) }
+    75% { -webkit-transform: scale(1); }
+    100% { -webkit-transform: scale(1); }
+}
+
+.indicator.offline {
+    background: #E21E34;
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    
+}
+
+/* PEOPLE IN NETWORK PROFILES */
+
+.chip {
+  display: inline-block;
+  padding: 0 25px;
+  height: 50px;
+  font-size: 16px;
+  line-height: 50px;
+  border-radius: 25px;
+  background-color: #FFF;
+}
+
+.chip img {
+  float: left;
+  margin: 0 10px 0 -25px;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+
+/*
+.sidebar {
+  margin: 0;
+  padding: 0;
+  width: 150px;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: #E21E34;
+  position: fixed;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+div.content1 {
+  margin-left: 200px;
+  padding: 1px 16px;
+  height: auto;
+}
+*/
+
+@media screen and (min-width: 600px) {
+  .topnav .search-container {
+    float: none;
+  }
+
+
+@media only screen and (max-width:992px) {
+     .topnav .search-container {
+    float: none;
+
+}
+
+.profile2 {
+  object-fit: contain;
+}
+
+</style>
+
+<script>
+document.getElementById("addnetwork").onclick = function() {myFunction()};
+function myFunction() {
+let myVar = ('<i id="addnetwork" class="fas fa-user-plus" style = color:#F6821F ' + '"#F6821F"></i>')
+console.log(myVar)
+document.getElementById("addnetwork").outerHTML = myVar
+}
+
+</script>
+
+
+
+<body>
+
+<!--<div id="header1">Robert Smith</div>
+
+<div style="margin-top:200px;padding:15px 15px 50px;font-size:30px"></div>-->
+
+	<div class="content">
+<div class="container" style="margin-top:40px">
+  <div class="row">
+
+    <div class="col-sm-4">
+      <h2 style="color: #F6821F">Robert Smith</h2>
+      <div><img style="vertical-align:top" class="img-fluid" src="images/profile1.jpg" alt="Profile Photo" style="width: 65%;"></div>
+</div>
+     
+<div class="col-sm-4">
+  <div>
+  <br>
+  <br>
+  
+   <h5>Software Engineer, Technology</h5>
+    <h5>at Paylocity since 2017</h5></div>
+
+  <br>
+  <button class="btn" class="btn hover"><i  id="addnetwork" class="fas fa-user-plus" style="color:back"></i>
+  <span style="">Add To Network</span></button>
+
+
+
+  <button class="btn" class="open-button" onclick="openForm()" style="background-color: white"><i class="fas fa-users" style="font-size:14px;color:#000;"></i><span style="">Request As Mentor</span></button>
+
+
+<div class="form-popup" id="myForm">
+  <form action="/action_page.php" class="form-container">
+    <h3 style="color: #F6821F">Mentor Request</h3>
+
+    <input type="text" placeholder="Type message.." name="email" required>
+
+    <button type="submit" class="btn3"><b>Submit</b></button>
+    <button type="button" class="btn cancel" onclick="closeForm()"><b>Cancel</b></button>
+  </form>
+</div>
+
+<br>
+<div>
+
+<a href="https://www.linkedin.com/"><button class="btn" class="btn hover"><i  id="network" class="fab fa-linkedin" style="color:back"></i>
+  <span style="">Linkedin </span></button></a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+<button class="btn" class="open-button" onclick="openForm2()" style="background-color: white"><i class="fas fa-thumbs-up" style="font-size:14px;color:#000;"></i><span style="">Give Recognition</span></button>
+
+<div class="form-popup" id="myForm2">
+  <form action="/action_page.php" class="form-container">
+    <h3 style="color: #F6821F">Celebrate Your Peers</h3>
+
+    <input type="text" placeholder="Type message.." name="email" required>
+
+
+    <button type="submit" class="btn2"><b>Leadership</b></button>
+    <button type="submit" class="btn2"><b>Mentorship</b></button>
+    <button type="submit" class="btn2"><b>Innovation</b></button>
+    <button type="submit" class="btn2"><b>Teamwork</b></button>
+    <button type="submit" class="btn2"><b>All Star</b></button>
+    <button type="button" class="btn cancel" onclick="closeForm2()"><b>Cancel</b></button>
+  </form>
+
+</div>
+</span>
+
+<br>
+<br>
+<span style="">
+<div class="container">
+  <i class="fas fa-mobile-alt" style="font-size:14px;color:#000;"></i>
+  <span style="">123.456.7890</span></div>
+
+  <div class="container">
+  <i class="fas fa-envelope" style="font-size:14px;color:#000;"></i>
+  <a href="https://www.gmail.com/">email@info.com</a>
+</div>
+
+<div class="container">
+  <i class="fas fa-map-marker-alt" style="font-size:14px;color:#000;"></i>
+  <span style=""> 123 Main Street, City, State 12345</span>
+</div>
+
+<div class="container">
+  <i class="fas fa-globe" style="font-size:14px;color:#000;"></i>
+  <a href="https://www.paylocity.com/">Paylocity Community</a>
+  <!--<span style="">Paylocity Community</span>-->
+</div>
+
+<div class="container">
+  <i class="fas fa-user" style="font-size:14px;color:#000;"></i>  
+  <span style="">123456</span>
+</div>
+
+<br>
+
+
+<div id="my_centered_buttons">
+ <!--&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;-->
+<button class="btn1 info" class="open-button" onclick="openForm3()">Chat with Robert</button>
+</div>
+
+
+<div class="chat-popup" id="myForm3">
+  <form action="/action_page.php" class="form-containerchat">
+    <div class="chip">
+  <img src="images/profile1.jpg" alt="Robert Smith" width="96" height="96">
+ </div>
+    <!--<h3 style="color: #F6821F ">Chat</h3>-->
+
+    
+    <textarea placeholder="Type message.." name="msg" required></textarea>
+
+    <button type="submit" class="btn">Send</button>
+    <button type="button" class="btn cancel" onclick="closeForm3()">Close</button>
+  </form>
+</div>
+
+</div>
+</div>
+
+<br>
+<br>
+
+<div class="container" style="margin-left: 20px;">
+  <div class="row">
+    <div class="col-mid-4">
+      <br><br>
+    <h5 style="color:#F6821F" id="bio">PERSONAL BIO</h5>
+    <br>
+    <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+  </div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm-4">
+      <br><br>
+
+    <h5 style="color:#F6821F">SKILLS</h5>
+    <br>
+    <ul>
+      <li>Project Management</li>
+      <li>Perform and document risk analysis</li>
+      <li>Code automated test</li>
+      <li>Perform manual and automated testing</li>
+      <li>Spanish and French</li>
+    </ul>
+ </div>
+ <!--</div>
+ </div> -->
+<br>
+
+<br>
+<!--<div class="container">
+  <div class="row">-->
+    <div class="col-sm-4">
+      <br><br>
+ <span class=""> <h5 style="color:#F6821F">CURRENT PROJECTS</h5>
+  <br>
+  <ul>
+    <li>Re-Imagined Paylocity Directory</li>
+    <li> XYZ Project</li>
+  </ul>
+</div>
+
+<br>
+
+    <div class="col-sm-4">
+      <br><br>
+      <h5 style="color:#F6821F">PAST PROJECTS</h5>
+      <br>
+    <ul>
+      <li>ZZZ Project</li>
+      <li>AAA Project</li>
+    </ul>
+</div>
+</div>
+</div>
+
+<br>
+<br>
+
+
+  <div class="col-sm-4">
+      <br><br>
+<div>
+  <h5 style="color:#F6821F">PEOPLE IN NETWORK</h5>
+</div>
+
+<br>
+
+<div class="chip">
+  <img src="images/profile3.jpg" alt="Ashley Smith" width="96" height="96" usemap="#workmap" >
+  Ashley Smith
+ </div>
+ <map name="workmap">
+  <area shape="default"  href="ProfileTest2New.html">
+</map>
+
+ <br>
+ <br>
+
+<div class="chip" class="profile2">
+   <img src="images/profile2.jpg" alt="James Williams" width="96" height="96" usemap="#workmap2">
+  James Williams
+</div>
+
+<map name="workmap2">
+  <area shape="default"  href="ProfileTest2New.html">
+</map>
+
+</div>
+
+<div class="col-sm-8">
+  <br><br>
+  <div>
+    <h5 style="color:#F6821F">ORGANIZATIONAL CHART</h5>
+
+
+</div>
+</div>
+</div>
+<br><br>
+<br>
+</div>
+
+<!--<div class="footer">
+
+  <img src="images/paylocity.svg" style="width: 20%" class="responsive">
+</div>-->
+<br><br>
+
+<script>
+// When the user scrolls down 50px from the top of the document, resize the header's font size
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+    document.getElementById("header").style.fontSize = "30px";
+  } else {
+    document.getElementById("header").style.fontSize = "90px";
+  }
+}
+</script>
+
+
+
+
+</body>
+</html>
