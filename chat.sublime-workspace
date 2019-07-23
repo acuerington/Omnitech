@@ -1,0 +1,299 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"score",
+				"scorePerCent"
+			],
+			[
+				"S",
+				"System"
+			],
+			[
+				"sp",
+				"speedY"
+			],
+			[
+				"my",
+				"myGamePiece"
+			],
+			[
+				"speed",
+				"speedY"
+			],
+			[
+				"style",
+				"stylesheet"
+			],
+			[
+				"text-",
+				"text-align\tproperty"
+			],
+			[
+				"bac",
+				"background-image\tproperty"
+			],
+			[
+				"h",
+				"h2\tTag"
+			],
+			[
+				"P",
+				"profile3"
+			],
+			[
+				"d",
+				"div\tTag"
+			],
+			[
+				"nav-",
+				"nav-link"
+			],
+			[
+				"co",
+				"contentCenterY"
+			],
+			[
+				"u",
+				"ul\tTag"
+			],
+			[
+				"mR",
+				"margin\tproperty"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/Devon Williams/Desktop/Test/Paylocity Directory 2/paylocitydirectory2/slideshow.css",
+		"/C/Users/Devon Williams/Desktop/Test/Paylocity Directory 2/paylocitydirectory2/Multiple-Choice-Quiz-JavaScript-master/Multiple-Choice-Quiz-JavaScript-master/quiz.js",
+		"/C/Users/Devon Williams/Desktop/Test/Paylocity Directory 2/paylocitydirectory2/chat.css",
+		"/C/Users/Devon Williams/Desktop/Test/Paylocity Directory 2/paylocitydirectory2/Profiletesttest.html",
+		"/C/Users/Devon Williams/Desktop/Test/Paylocity Directory 2/paylocitydirectory2/Paylocity Search.html",
+		"/C/Users/Devon Williams/Desktop/Multiple-Choice-Quiz-JavaScript-master/alert.js",
+		"/C/Users/Devon Williams/Documents/profile.html",
+		"/C/Users/Devon Williams/Documents/Marvel_Logo_Imitation/Marvel_Logo_Imitation.aep",
+		"/C/Users/Devon Williams/Desktop/trivia.html",
+		"/C/Users/Devon Williams/Desktop/trivia.css",
+		"/C/Users/Devon Williams/Desktop/trivia.js",
+		"/C/Users/Devon Williams/Desktop/Test/jeopardy.html",
+		"/C/Users/Devon Williams/Desktop/Test/paylocitygame.html",
+		"/C/Users/Devon Williams/Desktop/Test/jeopardy.js",
+		"/C/Users/Devon Williams/Desktop/Test/jeopardy.css",
+		"/C/Users/Devon Williams/Desktop/Test/trexjogger.html",
+		"/C/Users/Devon Williams/Desktop/Test/paylocitygame.css",
+		"/C/Users/Devon Williams/Desktop/Test/trexjogger.js",
+		"/C/Users/Devon Williams/Desktop/Test/paylocitygame.js",
+		"/C/Users/Devon Williams/Desktop/Test/paylocitygame2.html",
+		"/C/Users/Devon Williams/Desktop/Test/mario2.html",
+		"/C/Users/Devon Williams/Desktop/Test/mario2.js",
+		"/C/Users/Devon Williams/Desktop/Test/London Beats.html",
+		"/C/Users/Devon Williams/Desktop/Test/Slider.html",
+		"/C/Users/Devon Williams/Desktop/Test/profile.js",
+		"/C/Users/Devon Williams/Desktop/Test/profile.css",
+		"/C/Users/Devon Williams/Desktop/Test/profile.html",
+		"/C/Users/Devon Williams/Desktop/Test/info.html",
+		"/C/Users/Devon Williams/Desktop/Test/profilepage.html",
+		"/C/Users/Devon Williams/Desktop/Test/trexjogger.css",
+		"/C/Users/Devon Williams/Desktop/Test/Slider Effect.html",
+		"/C/Users/Devon Williams/Desktop/Test/Styles/style.css",
+		"/C/Users/Devon Williams/Desktop/Test/Styles/Slide Effect 2.html",
+		"/C/Users/Devon Williams/Desktop/Test/NOVED Concepts.html",
+		"/C/Users/Devon Williams/Desktop/Test/NOVED Concepts.css",
+		"/C/Users/Devon Williams/Desktop/Test/test2.html",
+		"/C/Users/Devon Williams/Desktop/Test/Test.html",
+		"/C/Users/Devon Williams/Desktop/Test/home.html",
+		"/C/Users/Devon Williams/Desktop/Test/Scripts/main.js",
+		"/C/Users/Devon Williams/Desktop/Test/hello.html",
+		"/C/Users/Devon Williams/Desktop/Test/test3.html",
+		"/C/Users/Devon Williams/Desktop/Test/Styles/newstyles.css",
+		"/C/Users/Devon Williams/Documents/Corona Projects/Paylocity Jogger/main.lua",
+		"/C/Users/Devon Williams/Documents/into into html css/html-css-workshop-v4-master/index.html",
+		"/C/Users/Devon Williams/Documents/into into html css/html-css-workshop-v4-master/css/style.css",
+		"/C/Users/Devon Williams/Downloads/html-css-workshop-v4-master.zip",
+		"/C/Users/Devon Williams/Desktop/nightschool/query19.sql",
+		"/C/Users/Devon Williams/Desktop/nightschool/query20.sql",
+		"/C/Users/Devon Williams/Desktop/nightschool/query21.sql",
+		"/C/Users/Devon Williams/Desktop/nightschool/query22.sql",
+		"/C/Users/Devon Williams/Desktop/exercise2.html",
+		"/C/Users/Devon Williams/Desktop/nightschool/query18.sql",
+		"/C/Users/Devon Williams/Desktop/nightschool/query17.sql",
+		"/C/Users/Devon Williams/Desktop/nightschool/query16.sql",
+		"/C/Users/Devon Williams/Desktop/nightschool/query15.sql",
+		"/C/Users/Devon Williams/Desktop/nightschool/query14.sql",
+		"/C/Users/Devon Williams/Desktop/nightschool/query13.sql",
+		"/C/Users/Devon Williams/Desktop/nightschool/query12.sql",
+		"/C/Users/Devon Williams/Desktop/nightschool/query11.sql",
+		"/C/Users/Devon Williams/Desktop/nightschool/query10.sql",
+		"/C/Users/Devon Williams/Desktop/nightschool/query9.sql",
+		"/C/Users/Devon Williams/Desktop/nightschool/query8.sql",
+		"/C/Users/Devon Williams/Desktop/nightschool/query7.sql",
+		"/C/Users/Devon Williams/Desktop/nightschool/query6.sql",
+		"/C/Users/Devon Williams/Desktop/nightschool/query5.sql",
+		"/C/Users/Devon Williams/Desktop/nightschool/query4.sql",
+		"/C/Users/Devon Williams/Desktop/nightschool/query3.sql",
+		"/C/Users/Devon Williams/Desktop/nightschool/query2.sql",
+		"/C/Users/Devon Williams/Desktop/nightschool/query1.sql",
+		"/C/Users/Devon Williams/Desktop/nightschool/query.sql",
+		"/C/Users/Devon Williams/Desktop/Test/QUERY3.SQL"
+	],
+	"find":
+	{
+		"height": 39.0
+	},
+	"find_in_files":
+	{
+		"height": 101.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "chat.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"C:\\Users\\Devon Williams\\Desktop\\hello.html"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
